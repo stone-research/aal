@@ -2,7 +2,7 @@
 
 import { usePathname } from 'next/navigation';
 import { cn } from "@/lib/utils";
-import { LayoutDashboard, Bot, SwitchCameraIcon, PencilLineIcon, MoveVerticalIcon, GitPullRequestDraft, Settings } from "lucide-react";
+import { LayoutDashboard, Bot, SwitchCameraIcon, PencilLineIcon, MoveVerticalIcon, GitPullRequestDraft, Settings, Smile } from "lucide-react";
 import { Roboto_Slab } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,7 +15,7 @@ const Roboto = Roboto_Slab({
 const routes = [
     {
         label: "Dashboard",
-        icon: LayoutDashboard,
+        icon: Smile,
         href: "/dashboard",
         color: "text-white-100",
     },

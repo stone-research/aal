@@ -20,14 +20,14 @@ const tools = [
     icon: PencilLine,
     color: "text-purple-500",
     bgColor: "bg-black-500/10",
-    href: "/logocreator"
+    href: "/logodesigner"
   },
   {
-    label: "AI Photo Maker",
+    label: "AI Image Creator",
     icon: SwitchCameraIcon,
     color: "text-yellow-500",
     bgColor: "bg-black-500/10",
-    href: "/photocreator"
+    href: "/imagecreator"
   },
   {
     label: "AI Photo Upscaler",
