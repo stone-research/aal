@@ -1,6 +1,14 @@
 ## Getting Started
 
-First, run the development server:
+First install all the required dependencies in the application directory:
+
+npm install 
+
+Then run the shadcn-ui init command to setup your project:
+
+npx shadcn-ui@latest init
+
+Now run the development server:
 
 ```bash
 npm run dev
